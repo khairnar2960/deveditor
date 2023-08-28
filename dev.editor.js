@@ -1,6 +1,6 @@
 /**
  * [DevEditor description]
- * @package	DevEditor v1.0.0
+ * @package	DevEditor v1.0.1
  * @author	Harshal Khairnar
  * @link	https://harshalkhairnar.com/
  * Copyright 2023 HitraA Technologies
@@ -101,7 +101,7 @@ function DevEditor(selector, settings) {
 			}
 
 			// Extract the line at the cursor position
-			line = value.substring(lineStart, lineEnd);
+			let line = value.substring(lineStart, lineEnd);
 
 			// Count the number of subsequent tabs at the beginning of the line
 			for (let i = 0; i < line.length; i++) {
@@ -159,5 +159,5 @@ function DevEditor(selector, settings) {
 		this.start();
 	}
 
-	this.version = '1.0.0';
+	this.version = '1.0.1';
 }
