@@ -1,0 +1,27 @@
+{
+  "name": "deveditor",
+  "version": "1.0.0",
+  "description": "HTML Textarea functionality booster",
+  "main": "dev.editor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khairnar2960/deveditor.git"
+  },
+  "keywords": [
+    "textarea",
+    "editor",
+    "auto",
+    "tabs",
+    "allow",
+    "tabs"
+  ],
+  "author": "https://github.com/khairnar2960/",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khairnar2960/deveditor/issues"
+  },
+  "homepage": "https://github.com/khairnar2960/deveditor#readme"
+}
