@@ -62,7 +62,7 @@ function DevEditor(selector, settings) {
 	}
 
 	const listener = (event, element) => {
-		element ? ? = event.target;
+		element ??= event.target;
 
 		if (element.type !== 'textarea') {
 			throw new TypeError('Element must be textarea');
